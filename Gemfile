@@ -6,5 +6,4 @@ gem 'f1sales_helpers', github: 'f1sales/f1sales_helpers', branch: 'master'
 gem 'rails'
 gem 'aws-sdk-s3'
 
-
 gemspec
