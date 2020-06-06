@@ -1,12 +1,12 @@
 GIT
-  remote: git://github.com/f1sales/f1sales_helpers.git
+  remote: https://github.com/f1sales/f1sales_helpers.git
   revision: 3c3f8eb9679b4e6296f8929fb8a20813936b8205
   branch: master
   specs:
     f1sales_helpers (0.1.0)
 
 GIT
-  remote: git://github.com/marciok/f1sales_custom-email.git
+  remote: https://github.com/marciok/f1sales_custom-email.git
   revision: 6cad18ba9095284c15da97d7afd50aa47cc711a8
   branch: master
   specs:
@@ -16,6 +16,7 @@ PATH
   remote: .
   specs:
     vecchio (0.1.0)
+      aws-sdk-s3
 
 GEM
   remote: https://rubygems.org/
@@ -157,7 +158,7 @@ GEM
       thread_safe (~> 0.1)
     websocket-driver (0.7.1)
       websocket-extensions (>= 0.1.0)
-    websocket-extensions (0.1.4)
+    websocket-extensions (0.1.5)
 
 PLATFORMS
   ruby
